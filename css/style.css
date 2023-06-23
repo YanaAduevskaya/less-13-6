@@ -417,25 +417,22 @@ textarea[placeholder] {
         margin-bottom: 20px;
     }
     .skills__flex {
+        flex-wrap: wrap;
         justify-content: space-around;
     }
     .skills__box {
-        padding-top: 50px;
+        padding-top: 0;
         margin-right: 20px;
-    }
-    .skills_photo {
-        width: 450px;
-        height: 365px;
+        margin-bottom: 30px;
     }
     .video_frame {
         width: 800px;
         height: 432px;
+        margin: 0 auto;
     }
     iframe {
         width: 800px;
         height: 432px;
-        display: block;
-        padding-left: 230px;
     }
     .projects__gallery {
         grid-template-columns: repeat(2, 1fr);
@@ -455,59 +452,35 @@ textarea[placeholder] {
     }
     .footer_flex {
         padding: 0 20px 0 20px;
-    }
+    } 
 }
 @media screen and (max-width: 992px) {
+    .header__menu-items {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .header__menu-item {
+        margin-bottom: 20px;
+    }
     .header__logo {
-        margin-right: 110px;
+        padding-left: 30px;
     }
     .header__img {
         margin-right: 50px;
         margin-left: 50px;
     }
-    .header__menu-items {
-        padding: 0;
-    }
-    .header__menu-item {
-        white-space: nowrap;
-        margin-right: 20px;
-    }
-    .skills__box {
-        max-width: 300px;
-        padding-top: 5px;
-        padding-left: 30px;
-    }
-    .skills_h2 {
-        margin: 0 0 20px 0; 
-    }
-    .skills__list {
-        margin-bottom: 15px;
-    }
-    .skills-p {
-        margin: 0 0 12px 0;
-    }
-    .progress-bar {
-        width: 300px;
-    }
-    .progress-bar-completed {
-        width: 243px;
-    }
-    .progress-bar-remaining {
-        width: 57px;
-    }
-    .skills_photo {
-        width: 300px;
-        height: 243px;
+    .video_frame {
+        width: 700px;
+        height: 378px;
     }
     iframe {
         width: 700px;
         height: 378px;
-        padding-left: 150px;
-    } 
+    }
 }
 @media screen and (max-width: 768px) {
-    .header__logo {
-        margin-right: 70px;
+    .header__flex-menu {
+        margin-bottom: 80px;
     }
     .header_h1 {
         font-size: 30px;
@@ -530,11 +503,14 @@ textarea[placeholder] {
         margin-right: 10px;
         letter-spacing: 0.05em;
     }
+    .video_frame {
+        width: 500px;
+        height: 270px;
+    }
     iframe {
         width: 500px;
         height: 270px;
-        padding-left: 130px;
-    } 
+    }
     .projects__gallery {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -549,11 +525,14 @@ textarea[placeholder] {
         padding-left: 10px;
     }
     .header__flex-menu {
-        flex-wrap: wrap;
-        margin-bottom: 50px;
+        
+        margin-bottom: 30px;
     }
-    .header__menu-items {
-        padding-left: 10px;
+    .header__img {
+        width: 150px;
+        height: 98.17px;
+        margin-right: 20px;
+        margin-left: 20px;
     }
     .header_h1 {
         font-size: 25px;
@@ -564,43 +543,20 @@ textarea[placeholder] {
         height: 60px;
         white-space: normal;
         font-size: 12px;
-    }
-    .header__img {
-        width: 150px;
-        height: 98.17px;
-        margin-right: 20px;
-        margin-left: 20px;
-    }
-    .skills__box {
-        max-width: 100px;
-        padding-top: 5px;
-        padding-left: 30px;
-    }
-    .skills_h2 {
-        font-size: 24px;
-    }
-    .skills__list {
-        margin-bottom: 10px;
-    }
-    .skills-p {
-        margin: 0 0 10px 0;
-    }
-    .progress-bar {
-        width: 100px;
-    }
-    .progress-bar-completed {
-        width: 100px;
-    }
-    .progress-bar-remaining {
-        width: 23.45px;
+    } 
+    .skills__flex {
+        padding: 0 5px 0 5px;
     }
     .skills_photo {
-        width: 150px;
-        height: 121.5px;
+        width: 300px;
+        height: 243px;
+    }
+    .video_frame {
+        width: 300px;
+        height: 162px;
     }
     iframe {
         width: 300px;
         height: 162px;
-        padding-left: 130px;
-    } 
+    }
 }

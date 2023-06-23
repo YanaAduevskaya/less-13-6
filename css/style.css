@@ -513,10 +513,12 @@ textarea[placeholder] {
     }
     .projects__gallery {
         grid-template-columns: repeat(1, 1fr);
+        padding: 0 10px 0 10px;
     }
     .projects__gallery-card {
-        height: 80vw;
-        background-position: 50%;
+        height: 100vw;
+        background-position: center;
+        background-size: cover;
     }
 }
 @media screen and (max-width: 576px) {
@@ -525,7 +527,6 @@ textarea[placeholder] {
         padding-left: 10px;
     }
     .header__flex-menu {
-        
         margin-bottom: 30px;
     }
     .header__img {

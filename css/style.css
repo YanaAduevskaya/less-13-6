@@ -554,9 +554,23 @@ textarea[placeholder] {
     .video_frame {
         width: 300px;
         height: 162px;
+        padding: 0;
     }
     iframe {
         width: 300px;
         height: 162px;
     }
+    .form__content {
+        max-width: 300px;
+    }
+    .form__content-items {
+        max-width: 300px;
+    }
+    .form__content-item {
+        width: 140px;
+        margin-right: 20px;
+    }
+    .form_area {
+        width: 300px;
+    } 
 }

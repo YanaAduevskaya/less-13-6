@@ -114,7 +114,6 @@ img {
     max-width: 540px;
     margin: 0 auto;
 }
-
 .about-me_h2 {
     color: #000;
     text-align: center;
@@ -405,6 +404,9 @@ textarea[placeholder] {
         margin-right: 50px;
         margin-left: 70px;
     }
+    .about-me__content {
+        padding: 0 20px 0 20px;
+    }
     .numbers__flex {
         justify-content: center;
         flex-wrap: wrap;
@@ -417,11 +419,15 @@ textarea[placeholder] {
     .skills__flex {
         flex-wrap: wrap;
         justify-content: space-around;
+        padding: 0 20px 0 20px;
     }
     .skills__box {
         padding-top: 0;
         margin-right: 20px;
         margin-bottom: 30px;
+    }
+    .video__content-title {
+        padding: 0 20px 0 20px;
     }
     .video_frame {
         width: 800px;
@@ -548,9 +554,6 @@ textarea[placeholder] {
         height: 60px;
         white-space: normal;
         font-size: 12px;
-    }
-    .skills__flex {
-        padding: 0 5px 0 5px;
     }
     .skills_photo {
         width: 300px;
